@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="start_page">
+    <button id="start" class="">スタート</button> 
+  </div>
+  <div id="game_page" style="display: none;">
+    <div class="game">
+      <div id="predict">
+        <div id="digit_1" class="pre_digit"></div>
+        <div id="digit_2" class="pre_digit"></div>
+        <div id="digit_3" class="pre_digit"></div>
+        <div id="digit_4" class="pre_digit"></div>
+      </div>
+      <div class="btn">
+        <button id="pre_0" value="0" class="pre_btn">0</button>
+        <button id="pre_1" value="1" class="pre_btn">1</button>
+        <button id="pre_2" value="2" class="pre_btn">2</button>
+        <button id="pre_3" value="3" class="pre_btn">3</button>
+        <button id="pre_4" value="4" class="pre_btn">4</button>
+        <button id="pre_5" value="5" class="pre_btn">5</button>
+      </div>
+      <div id="result">
+        <span class="re">
+          hit: <span id="result_h" class="re_in"></span>
+        </span>
+        <span class="re">
+          blow: <span id="result_b" class="re_in"></span>
+        </span>
+      </div>
+      <button id="decide">Enter</button>
+    </div>
+    <div class="result">
+      <div id="record_pre"></div>
+    </div>
+  </div>
+  <div id="end_page" style="display: none;">
+    <p>Congraturations!!<br>
+    Answer is <span id="ans"></span></p>
+    <button id="reset">Reset</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

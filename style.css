@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: #000;
+}
+
+
+#start_page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button#start{
+  width: 50%;
+  height: 20vh;
+  border-radius: 2vh;
+  align-items: center;
+  background: #f2f2f2;
+  border: 0.6vh solid #999 ;
+  display: block;
+  font-size: 10vh;
+}
+
+#game_page{
+  width: 100%;
+  display: flex;
+}
+
+.game{
+  width: 80%;
+  height: 100vh;
+}
+.result{
+  width: 20%;
+  background: #666;
+  border-radius: 2vw;
+}
+
+
+
+#predict{
+  width: 75%;
+  height: 40%;
+  background: #666;
+  margin: 10px auto;
+  border-radius: 2vh;
+  display: flex;
+  justify-content: space-around;
+}
+.pre_digit{
+  width: 23%;
+  height: 90%;
+  border: 1px solid#000;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 10rem;
+  color: yellow;
+}
+
+
+.btn{
+  width: 70%;
+  height: 20%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+}
+button.pre_btn {
+  width: 8vw;
+  height: 8vw;
+  border-radius: 1vw;
+  background-color: #999;
+  color: yellow;
+  font-size: 6vw;
+  margin: auto;
+}
+button.pre_btn:disabled{
+  background: #888;
+  color: #666;
+}
+
+
+#result{
+  width: 70%;
+  height: 10%;
+  background: #999;
+  margin: 10px auto;
+  border-radius: 1vw;
+  font-size: 8vh;
+  display:flex;
+  justify-content: space-around;
+  color: yellow;
+}
+.re{
+  display: inline-block;
+  width: 48%;
+}
+.re_in{
+  width: 1em;
+}
+
+#decide{
+  width: 50%;
+  height: 15%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 2vw;
+  border: #666 4px solid;
+  font-size: 10vh;
+  color: #666;
+}
+button:hover{
+  background: #444;
+}
+
+
+.record{
+  background: #000;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  color: yellow;
+}
+
+
+#end_page{
+  background: #000;
+  width: 100%;
+  /* height: 100vh; */
+}
+p{
+  margin-top: 300px;
+  color: #fff;
+  text-align: center;
+  
+}
+button#reset{
+  width: 40%;
+  height: 100px;
+  margin-left:30%;
+  margin-right:30%;
+  font-size: 6vh;
+}
